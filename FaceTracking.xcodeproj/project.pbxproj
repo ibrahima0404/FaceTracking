@@ -15,6 +15,7 @@
 		861C9B8A20E8F81200A3F9B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C9B8920E8F81200A3F9B9 /* main.m */; };
 		861C9B9420E8F81200A3F9B9 /* FaceTrackingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C9B9320E8F81200A3F9B9 /* FaceTrackingTests.m */; };
 		861C9B9F20E8F81200A3F9B9 /* FaceTrackingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C9B9E20E8F81200A3F9B9 /* FaceTrackingUITests.m */; };
+		861C9BAE20E8F88400A3F9B9 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861C9BAD20E8F88400A3F9B9 /* ARKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		861C9B9A20E8F81200A3F9B9 /* FaceTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861C9B9E20E8F81200A3F9B9 /* FaceTrackingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceTrackingUITests.m; sourceTree = "<group>"; };
 		861C9BA020E8F81200A3F9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861C9BAD20E8F88400A3F9B9 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861C9BAE20E8F88400A3F9B9 /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				861C9B9220E8F81200A3F9B9 /* FaceTrackingTests */,
 				861C9B9D20E8F81200A3F9B9 /* FaceTrackingUITests */,
 				861C9B7820E8F80C00A3F9B9 /* Products */,
+				861C9BAC20E8F88300A3F9B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				861C9BA020E8F81200A3F9B9 /* Info.plist */,
 			);
 			path = FaceTrackingUITests;
+			sourceTree = "<group>";
+		};
+		861C9BAC20E8F88300A3F9B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861C9BAD20E8F88400A3F9B9 /* ARKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
